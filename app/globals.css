@@ -3,9 +3,13 @@
 @tailwind utilities;
 
 
-body{
+body,.badge,h2{
   font-family: var(--font-roboto);
 }
-h1,h2,h3,h4,h5,h6,button{
+h1,h3,h4,h5,h6,button{
 font-family: var(--font-italiana);
+}
+
+.section{
+  @apply max-w-7xl mx-auto;
 }
