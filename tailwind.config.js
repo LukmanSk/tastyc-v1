@@ -7,6 +7,7 @@ module.exports = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+
   	extend: {
   		colors: {
   			primary: {
@@ -67,6 +68,17 @@ module.exports = {
   			sm: 'calc(var(--radius) - 4px)'
   		}
   	}
+    extend: {
+      colors: {
+        primary: "#04171A",
+        secondary: "#D68240",
+        tertiary: "#2ECC71",
+        dark: {
+          400: "#D3CFC6",
+          900: "#041314",
+        },
+      },
+    },
   },
   plugins: [require("tailwindcss-animate")],
 };

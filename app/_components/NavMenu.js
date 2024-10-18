@@ -13,6 +13,7 @@ const NavMenu = ({ isOpen }) => {
       className={`menu z-50 absolute h-fit w-full bg-dark-900 ${
         !isOpen ? "-top-[100vh]" : "top-[12vh]"
       }  left-0 transition-all duration-700 ease-linear   `}
+
     >
       <ul className="nav__list flex  flex-col p-12 py-8">
         {menuItems.map((item, index) => (
