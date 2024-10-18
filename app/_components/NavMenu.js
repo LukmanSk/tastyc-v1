@@ -10,7 +10,7 @@ const menuItems = [
 const NavMenu = ({ isOpen }) => {
   return (
     <div
-      className={`menu absolute h-fit w-full bg-dark-900 ${
+      className={`menu | z-50 | absolute h-fit w-full bg-dark-900 ${
         isOpen ? "-top-[100vh]" : "top-[12vh]"
       }  left-0 transition-all duration-700 ease-linear`}
     >

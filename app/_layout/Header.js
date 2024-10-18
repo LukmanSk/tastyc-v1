@@ -6,6 +6,7 @@ import CartIcon from "../_components/icons/CartIcon";
 import HamburgerIcon from "../_components/icons/HamburgerIcon";
 import NavMenu from "../_components/NavMenu";
 import { useState } from "react";
+import Link from "next/link";
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -16,9 +17,10 @@ function Header() {
   return (
     <header>
       <nav className="section flex items-center justify-between px-8 py-4 text-white">
-        <div className="logo">
+        <Link href="/" className="logo">
           <Image width={130} height={130} src={logo} alt="logo" />
-        </div>
+        </Link>
+
         {/* menu */}
         <NavMenu isOpen={isOpen} />
 
