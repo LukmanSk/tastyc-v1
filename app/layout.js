@@ -22,7 +22,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`bg-primary ${italiana.variable} ${roboto.variable} antialiased`}
+        className={` relative bg-primary ${italiana.variable} ${roboto.variable} antialiased`}
       >
         <Header />
         <main>{children}</main>
