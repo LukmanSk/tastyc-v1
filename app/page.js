@@ -1,3 +1,7 @@
+import Hero from "./_sections/hero";
+
 export default function Home() {
-  return <>Home page</>;
+  return <>
+  <Hero />
+  </>;
 }

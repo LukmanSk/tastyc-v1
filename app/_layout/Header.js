@@ -14,13 +14,13 @@ function Header() {
   }
 
   return (
-    <header>
+    <header className="fixed w-full z-[1000]  " >
       <nav className="section flex items-center justify-between px-8 py-4 text-white">
         <div className="logo">
           <Image width={130} height={130} src={logo} alt="logo" />
         </div>
         {/* menu */}
-        <NavMenu isOpen={isOpen} />
+        <NavMenu  isOpen={isOpen} />
 
         {/*  */}
         <div className="buttons flex items-center gap-4 ">
