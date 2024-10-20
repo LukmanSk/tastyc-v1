@@ -19,6 +19,7 @@ module.exports = {
         tertiary: "#2ECC71",
         light: {
           500: "#E5EBEF",
+          600:"#D3CFC6"
         },
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
